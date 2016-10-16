@@ -1,0 +1,77 @@
+/*STYLESHEET*/
+body {
+	font-family: Avenir, sans-serif;
+	margin: 0;
+	text-align: center;
+}
+
+#home {position: center;}
+
+#about {
+	width: 700px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#gallery {
+	width: 700px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+::-webkit-scrollbar { display: none; }
+
+img {
+	width: 50%;
+	height: 50%;
+}
+
+.buttons {
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+}
+
+.container {
+	width: 1000px;
+	display: inline-grid;
+	column-count: 5;
+	row-count: 14;
+    grid-column-gap: 0;
+    grid-row-gap: 25%;
+    margin: auto;
+}
+
+.item {
+	float: left;
+	padding: 10px;
+}
+
+#menu {
+	position: fixed;
+	top: -10px;
+	z-index: 1;
+	right: 10px;
+}
+
+#next {
+	float: right;
+	width: 200px;
+}
+
+#camera{
+	float: right;
+	width: 200px;
+}
+
+ul li {
+	text-align: left;
+	display: inline-block;
+	padding: 10px;
+}
+
+ol {
+	text-align: center;
+	padding: 10px;
+	list-style: none;
+}
