@@ -68,6 +68,7 @@ ul li {
 	text-align: left;
 	display: inline-block;
 	padding: 10px;
+	font-size: 14px;
 }
 
 ol {
@@ -75,3 +76,6 @@ ol {
 	padding: 10px;
 	list-style: none;
 }
+
+.link a { color: black;}
+.link a:visited { color: black; }
