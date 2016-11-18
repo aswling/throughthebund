@@ -9,6 +9,43 @@ var photosCounter = 0;
 var chapterCounter = 0;
 var foto;
 
+var images = new Array()
+	function preload() {
+		for (i = 0; i < preload.arguments.length; i++) {
+			images[i] = new Image()
+			images[i].src = preload.arguments[i]
+		}
+	}
+	preload(
+		"character.gif",
+		"image/1.gif",
+		"image/2.png",
+		"image/3.gif",
+		"image/4.png",
+		"image/5.png",
+		"image/6.gif",
+		"image/7.png",
+		"image/8.png",
+		"image/9.gif",
+		"image/10.png",
+		"image/11.gif",
+		"image/12.png",
+		"image/13.png",
+		"image/14.gif",
+		"image/15.gif",
+		"image/16.png",
+		"image/17.gif",
+		"image/18.png",
+		"image/19.png",
+		"image/20.gif",
+		"thanks.png",
+		"photo/1.gif",
+		"photo/2.gif",
+		"photo/3.gif",
+		"goodend.gif",
+		"badend.gif"
+	)
+
 var comics = [
 	"character.gif",
 	"image/1.gif",
