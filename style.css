@@ -5,8 +5,6 @@ body {
 	text-align: center;
 }
 
-#home {position: center;}
-
 #about {
 	width: 700px;
 	margin: 0 auto;
@@ -32,7 +30,7 @@ img {
 	text-align: center;
 }
 
-.container {
+.gallery {
 	width: 1000px;
 	display: inline-grid;
 	column-count: 5;
@@ -45,6 +43,11 @@ img {
 .item {
 	float: left;
 	padding: 10px;
+}
+
+.item img {
+	width: 50%;
+	height: 50%;
 }
 
 #menu {
